@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="get">
+        <div>
+            <label>UserName: </label>
+            <input type="text" placeholder="username" required value="oms83" name="username" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Email: </label>
+            <input type="email" placeholder="Email" required value="oms@gmail.com" name="mail" disabled>
+        </div>
+        <br>
+        <div>
+            <label>Subject : </label>
+            <input type="text" placeholder="subject" name="subject" autofoucs>
+        </div>
+        <br>
+        <div>
+            <label>Password : </label>
+            <input type="password" placeholder="password" name="Password" required maxlength="50" minlength="10">
+        </div>
+        <br>
+        <div>
+            <label>Color: </label>
+            <input type="color" name="Color">
+        </div>
+        <br>
+        <div>
+            <input type="hidden" value="omermemes">
+        </div>
+        <br>
+        <div>
+            <label>Range: </label>
+            <input type="range" name="Range" max="100" min="0" value="0" step="10">
+        </div>
+        <br>
+        <div>
+            <label>Number: </label>
+            <input type="number" name="Number" value="0" max="100" min="0" step="5">
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input type="checkbox" name="windows" id="win1">
+            <label for="win1">Windows</label>
+        </div>
+        <div>
+            <input type="checkbox" name="linux" id="lin1" checked>
+            <label for="lin1">Linux</label>
+        </div>
+        <div>
+            <input type="checkbox" name="oms" id="mac1">
+            <label for="mac1">Mac</label>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input type="radio" name="os" id="win2" checked>
+            <label for="win2">Windows</label>
+        </div>
+        <div>
+            <input type="radio" name="os" id="lin2">
+            <label for="lin2">Linux</label>
+        </div>
+        <div>
+            <input type="radio" name="os" id="mac2">
+            <label for="mac2">Mac</label>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <label for="book">Choose Book</label>
+        <select name="book" id="book">
+            <optgroup label="Programming">
+                <option value="1" selected>Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+            </optgroup>
+            <optgroup label="Police">
+                <option value="4" selected>Book 1</option>
+                <option value="5">Book 2</option>
+                <option value="6">Book 3</option>
+            </optgroup>
+        </select>
+        <br>
+        <hr>
+        <label for="atricle">Article</label>
+        <textarea name="atricle" id="atricle" rows="10" cols="100"></textarea>
+        <br>
+        <hr>
+        <div>
+            <label>Url</label>
+            <input type="url">
+        </div>
+        <br>
+        <div>
+            <label>Search</label>
+            <input type="search">
+        </div>
+        <br>
+        <div>
+            <label>Uplaod</label>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label>Date</label>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <label>Month</label>
+            <input type="month">
+        </div>
+        <br>
+        <div>
+            <label>Time</label>
+            <input type="time">
+        </div>
+
+        <input type="submit" value="save">
+        <input type="reset" name="rest">
+    </form>
+</body>
+
+</html>
+<!-- 
+! placeholder
+! value
+! required
+! action => Where will the data be sent?
+! method(get) => displays the data sentin the link
+! method(get) => does not display data sent in the link
+! hidden
+! number
+! rest
+! range
+! color
+! minlength
+! maxlength
+! readOnly => user cannot change the data but can send it
+! disabled => user cannot change the data and cannot send it
+! autoFocus
+! checkbox
+! radio
+! lable(for) & input(id => unique) use to link the lable and the input fields together
+! radio(name) use to link the radio fields together
+! checked
+! select => combobox
+! optgroup => grouping the options
+! option
+! selected => default selected
+! file 
+! search
+! date
+! month
+! time
+! url
+-->
